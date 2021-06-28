@@ -21,6 +21,7 @@ body {
     text-align: center;
     vertical-align: center;
 
+
 }
 #count-el {
     border-bottom: 2px solid lightgreen;
@@ -29,7 +30,7 @@ body {
     padding: 2px;
     text-align: center;
     align-items: inherit;
-    background-color: rgba(255, 255, 255, 0.7)
+    background-color: rgba(255, 255, 255, 0.6)
 
 }
 section .p {
@@ -45,8 +46,9 @@ button {
     font-weight: bold;
     font-size: 1.3em;
     width: 200px;
+    height: auto;
     margin-bottom: 5px;
-    border-radius: 5px;
+    border-radius: 10px;
 
 }
 #increment-btn {
@@ -54,4 +56,14 @@ button {
 }
 #save-btn {
     background: darkgreen;
+}
+#clear-btn {
+    background: lightgrey;
+}
+.p-el {
+
+    font-size: 1.3em;
+    background-color: rgba(255, 255, 255, 0.7);
+    border-radius: 10px;
+
 }
