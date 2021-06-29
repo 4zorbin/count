@@ -23,11 +23,11 @@ body {
 .wrap {
     align-items: center;
     text-align: center;
-    vertical-align: center;
+
 }
 #count-el {
-    border-bottom: 2px solid lightgreen;
-    border-radius: 15px;
+    border-bottom: 5px solid lightgreen;
+    border-radius: 20px;
     margin: 0 30% 0 30%;
     padding: 2px;
     text-align: center;
@@ -62,15 +62,12 @@ button {
 }
 .p-el {
     padding-top: 5px;
-
+    margin: 0;
     font-size: 1.3em;
     background-color: rgba(255, 255, 255, 0.9);
     border-radius: 10px;
 }
 footer {
     margin-top: auto;
-    margin-bottom: 5px;
-}
-footer a {
-    margin: 5px;
+    padding: 5px;
 }
