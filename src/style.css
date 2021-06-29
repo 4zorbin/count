@@ -11,7 +11,7 @@ body {
     background-repeat: no-repeat;
     /* background-attachment: fixed; */
     background-position-y: bottom;
-    min-height: 100vh;
+    min-height: 98vh;
     display: flex;
     flex-direction: column;
 }
