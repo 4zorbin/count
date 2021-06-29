@@ -5,13 +5,13 @@ let count = 0
 
 function increment() {
     count = count + 1
-    console.log("inc" + count)
+    //console.log("inc" + count)
     countEl.textContent = count
     // document.getElementById("count-el").innerText = count ------ as option
 }
     // fun save to log out the count when it's called
 function save() {
-   console.log("save" + count)
+   //console.log("save" + count)
    //saveEl.innerText += " " + count + " + "  ----as option
    saveEl.textContent += count + " + "
   count = 0
@@ -20,5 +20,5 @@ function save() {
     // clear the result in bottom field
 function clearRes() {
     saveEl.textContent = "Previous: "
-   console.log("clear" + saveEl)
+   //console.log("clear" + saveEl)
 }
